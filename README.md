@@ -86,9 +86,9 @@ To ensure design consistency across the project (GitHub visuals, web UI, and app
 | **Body Text** | `Inter` | 400–500 | Simple, clean, and easy to read on both web and mobile. |
 | **Monospace (Code Snippets)** | `IBM Plex Mono` | 400 | Ideal for developer documentation and terminal output. |
 
-> ```html
-> <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
->```
+```
+https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&family=IBM+Plex+Mono&display=swap" rel="stylesheet
+```
 ---
 
 ## 2. The Idea of the Project
