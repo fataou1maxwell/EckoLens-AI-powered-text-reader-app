@@ -212,7 +212,9 @@ We will use API Gateway to expose the Lambda as an API endpoint that your mobile
 
 ---
 
-## 3. AWS Architecture Diagram
+## 3. Project Architecture
+
+### 3.1. Architecture Diagram
 
 The **EckoLens** system architecture connects visual input, language understanding, and speech synthesis in one seamless AI pipeline. It seamlessly combines **computer vision, natural language processing, translation, and speech synthesis** using the AWS AI ecosystem.
 
@@ -252,6 +254,38 @@ The **EckoLens** system architecture connects visual input, language understandi
 All API calls and data flows are managed by **AWS Lambda** and exposed securely via **API Gateway**.  
 User authentication (optional) is handled using **Amazon Cognito**.  
 Static web and mobile hosting are powered by **AWS Amplify**.
+
+---
+
+### 3.2. Project Structure
+
+```
+EckoLens/
+│
+├── backend/
+│   ├── lambda/
+│   │   └── main.py                # Core AWS Lambda handler
+│   ├── requirements.txt
+│   └── README.md
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.js                 # React/Amplify UI
+│   │   └── components/
+│   └── package.json
+│
+├── assets/
+│   ├── logo.png
+│   ├── diagrams/
+│   └── sample_images/
+│
+├── architecture/
+│   ├── aws_diagram.png
+│   └── system_overview.md
+│
+├── README.md                      # Root readme (project overview)
+└── LICENSE
+```
 
 ---
 
